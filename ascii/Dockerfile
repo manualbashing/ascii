@@ -5,4 +5,4 @@ RUN Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted; Install-Modu
 RUN New-Item $PROFILE -Force; "New-Alias Sort Sort-Object" >> $PROFILE
 RUN 'Write-Ascii "$args"' >> entrypoint.ps1
 ENTRYPOINT ["pwsh", "entrypoint.ps1"]
-CMD ["The winner is: 25903"]
+CMD ["The winner is: 8872"]
